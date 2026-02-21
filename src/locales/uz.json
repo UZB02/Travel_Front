@@ -1,0 +1,177 @@
+{
+    "home": {
+        "hotToursTitle": "Qaynoq turlar"
+    },
+    "nav": {
+        "hotTours": "Qaynoq turlar",
+        "payment": "To'lov",
+        "about": "Biz haqimizda",
+        "services": "Xizmatlar",
+        "tours": "Yo'nalishlar",
+        "contacts": "Aloqa",
+        "requestCall": "Qo'ng'iroq buyurtma qilish"
+    },
+    "hero": {
+        "title": "Butun dunyo bo'ylab sayohatlar",
+        "subtitle": "Travel bilan dunyoni kashf eting. 2021 yildan beri sifatli va ishonchli turistik xizmatlar.",
+        "searchLabel": "Qayerga bormoqchisiz?",
+        "searchPlaceholder": "Turkiya, BAA...",
+        "dateLabel": "Qachon?",
+        "searchBtn": "Turlarni izlash",
+        "stats": {
+            "countries": "davlatlar",
+            "tourists": "sayyohlar",
+            "support": "qo'llab-quvvatlash"
+        },
+        "hotToursTitle": "Qaynoq turlar"
+    },
+    "services": {
+        "title": "Bizning xizmatlar",
+        "subtitle": "Biz eng yaxshisini taklif etamiz",
+        "items": {
+            "types": "Sayohat turlari",
+            "typesDesc": "Dunyo bo'ylab tez va oson tashkil etiladigan sayohatlar",
+            "transport": "Transport xizmatlari",
+            "transportDesc": "Aviachiptalar, avtobus va mikroavtobuslarda guruhli sayohatlar",
+            "accommodation": "Joylashtirish",
+            "accommodationDesc": "Mehmonxonalar, dam olish maskanlari va mehmon uylarini band qilish",
+            "visas": "Vizalar va hujjatlar",
+            "visasDesc": "Xalqaro sayohatlar uchun zarur hujjatlarni tayyorlash",
+            "insurance": "Sug'urta",
+            "insuranceDesc": "Sayohat davomida xavfsizlikni ta'minlash uchun sug'urta xizmatlari"
+        }
+    },
+    "packages": {
+        "title": "Mashhur yo'nalishlar",
+        "price": "Narxi",
+        "details": "Batafsil",
+        "order": "Buyurtma",
+        "seeAll": "Barcha yo'nalishlarni ko'rish",
+        "days": "kun"
+    },
+    "footer": {
+        "addressTitle": "Bizning manzil",
+        "address": "Toshkent sh., Mustaqillik ko'chasi, 15",
+        "map": "Xaritada ko'rish",
+        "contactsTitle": "Aloqa",
+        "socialsTitle": "Ijtimoiy tarmoqlar",
+        "companyTitle": "Kompaniya",
+        "branches": "Filiallar",
+        "privacy": "Maxfiylik siyosati",
+        "rights": "Barcha huquqlar himoyalangan.",
+        "madeWith": "bilan ishlab chiqilgan"
+    },
+    "payment": {
+        "title": "To'lov usullari",
+        "description": "Sizning qulayligingiz uchun turli xil to'lov usullarini qabul qilamiz. Tez va xavfsiz to'lang.",
+        "cash": "Naqd pul"
+    },
+    "about": {
+        "genesis": "Bizning ibtidoyimiz",
+        "title": "Ertangani",
+        "titleSuffix": "Belgilash",
+        "subtitle": "Sayohat san'atini qayta ko'rib chiquvchi xayolparastlar jamoasi.",
+        "since": "2024 yildan beri",
+        "mainTitle": "Oddiylikdan",
+        "mainTitleHighlight": "Tashqarida",
+        "mainTitleSuffix": ", sayohat ruhiga.",
+        "description": "Yagona maqsad bilan tashkil etilgan: oddiy ta'tilni chuqur shaxsiy hikoyaga aylantirish. Biz shunchaki sayohatlarni bron qilmaymiz; biz sayyoramizning eng sirli burchaklari bilan unutilmas uchrashuvlarni tashkil qilamiz.",
+        "stats": {
+            "expeditions": "Ekspeditsiyalar",
+            "ports": "Portlar",
+            "renewal": "Qaytish darajasi"
+        },
+        "philosophy": "Bizning falsafamiz",
+        "quote": "\"Sayohat - bu siz sotib oladigan va sizni boyitadigan yagona narsa.\""
+    },
+    "contact": {
+        "header": {
+            "label": "To'g'ridan-to'g'ri kanal",
+            "title": "Uchqunni",
+            "titleHighlight": "Yoqing",
+            "subtitle": "Sizning sayohatingiz bitta so'rovdan boshlanadi. Biz eshitishga tayyormiz."
+        },
+        "info": {
+            "connect": "Bog'lanish",
+            "title": "Ichki doiraga kiring",
+            "hq": {
+                "title": "Bosh ofis",
+                "val": "Toshkent sh., Mustaqillik ko'chasi, 15"
+            },
+            "phone": {
+                "title": "Ovozli aloqa",
+                "val": "+998 78 555 77 88"
+            },
+            "email": {
+                "title": "Raqamli pochta",
+                "val": "travel.uz@gmail.com"
+            }
+        },
+        "form": {
+            "nameLabel": "Ismingiz",
+            "namePlaceholder": "Ismingizni kiriting",
+            "emailLabel": "Elektron pochta",
+            "emailPlaceholder": "example@mail.com",
+            "messageLabel": "Xabar",
+            "messagePlaceholder": "O'z qarashlaringizni tasvirlab bering...",
+            "submit": "Xabar yuborish",
+            "sending": "Yuborilmoqda..."
+        }
+    },
+    "toursPage": {
+        "label": "Dunyoni kashf eting",
+        "title": "Bizning",
+        "titleHighlight": "Eksklyuziv",
+        "titleSuffix": "Turlarimiz",
+        "description": "Shunchaki ta'tildan ko'prog'ini qidirayotganlar uchun dunyoning eng hayratlanarli manzillari to'plami.",
+        "emptyTitle": "Sayohatlar topilmadi",
+        "emptyDesc": "Hozirda biz yangi ajoyib joylarni qidirmoqdamiz. Yangi sarguzashtlar uchun keyinroq tekshiring.",
+        "from": "Dastlabki narx",
+        "duration": "Davomiyligi"
+    },
+    "booking": {
+        "selectedTour": "Tanlangan tur",
+        "namePlaceholder": "Ismingiz",
+        "phonePlaceholder": "Telefon raqamingiz",
+        "peoplePlaceholder": "Odamlar soni",
+        "messagePlaceholder": "Xabaringiz (ixtiyoriy)",
+        "submit": "Buyurtmani tasdiqlash",
+        "orCall": "Yoki bizga qo'ng'iroq qiling",
+        "success": "Buyurtma muvaffaqiyatli yuborildi!",
+        "error": "Xatolik yuz berdi. Iltimos, qayta urinib ko'ring.",
+        "fillRequired": "Iltimos, barcha maydonlarni to'ldiring.",
+        "promoCodePlaceholder": "Promo kod (ixtiyoriy)",
+        "yourPromoCode": "Sizning promo kodingiz",
+        "promoCodeCopy": "Ushbu kodni ulashing va mukofotlarga ega bo'ling!",
+        "successWithCode": "Buyurtma muvaffaqiyatli amalga oshirildi! Sizning promo kodingiz:"
+    },
+    "packageDetails": {
+        "experience": "Tajriba",
+        "aboutJourney": "Sayohat haqida",
+        "includedFeatures": "Sayohat tarkibi",
+        "expertTip": "Mutaxassis tavsiyasi",
+        "guideQuote": "Kamerangizni olishni unutmang! Bu yerdagi 'oltin soat' manzarasi dunyoda yagonadir.",
+        "seniorGuide": "Katta gid",
+        "investment": "Sayohat narxi",
+        "perPerson": "Kishi boshiga • Hammasi ichida",
+        "bookNow": "Buyurtma berish",
+        "enquire": "Shaxsiy so'rov",
+        "securePayment": "Xavfsiz to'lov va to'liq sug'urta",
+        "freeCancellation": "7 kun oldingacha bepul bekor qilish",
+        "certified": "World Travel Org tomonidan sertifikatlangan",
+        "nights": "tun",
+        "rated": "Reyting",
+        "feature1": "5 Yulduzli Mehmonxona",
+        "feature2": "Kunlik Nonushta va Kechki Ovqat",
+        "feature3": "Professional Gid",
+        "feature4": "Transport Xizmati",
+        "feature5": "Barcha Joylarga Kirish Chiptalari",
+        "feature6": "24/7 Qo'llab-quvvatlash"
+    },
+    "search": {
+        "resultsTitle": "Qidiruv natijalari",
+        "noResults": "Sizning so'rovingiz bo'yicha hech narsa topilmadi.",
+        "recommendations": "Sizga yoqishi mumkin bo'lgan sayohatlar",
+        "close": "Yopish"
+    }
+}

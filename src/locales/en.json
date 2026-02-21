@@ -1,0 +1,176 @@
+﻿{
+    "home": {
+        "hotToursTitle": "Hot Tours"
+    },
+    "nav": {
+        "hotTours": "Hot Tours",
+        "payment": "Payment",
+        "about": "About Us",
+        "services": "Services",
+        "tours": "Destinations",
+        "contacts": "Contact",
+        "requestCall": "Request a Call"
+    },
+    "hero": {
+        "title": "Travel Around the World",
+        "subtitle": "Discover the world with Travel. Quality and reliable travel services since 2021.",
+        "searchLabel": "Where do you want to go?",
+        "searchPlaceholder": "Turkey, UAE...",
+        "dateLabel": "When?",
+        "searchBtn": "Search Tours",
+        "stats": {
+            "countries": "countries",
+            "tourists": "tourists",
+            "support": "support"
+        },
+        "hotToursTitle": "Hot Tours"
+    },
+    "services": {
+        "title": "Our Services",
+        "subtitle": "We offer the best",
+        "items": {
+            "types": "Travel Types",
+            "typesDesc": "Quick and easily organized trips to anywhere in the world",
+            "transport": "Transport Services",
+            "transportDesc": "Air tickets, group trips on buses and minibuses",
+            "accommodation": "Accommodation",
+            "accommodationDesc": "Booking of hotels, resorts, and guest houses",
+            "visas": "Visas & Documents",
+            "visasDesc": "Preparation of necessary documents for international travel",
+            "insurance": "Insurance",
+            "insuranceDesc": "Insurance services to ensure safety during travel"
+        }
+    },
+    "packages": {
+        "title": "Popular Destinations",
+        "price": "Price",
+        "details": "Details",
+        "seeAll": "See All Destinations",
+        "days": "days"
+    },
+    "footer": {
+        "addressTitle": "Our Address",
+        "address": "Tashkent, Mustakillik Street, 15",
+        "map": "Show on Map",
+        "contactsTitle": "Contacts",
+        "socialsTitle": "Social Networks",
+        "companyTitle": "Company",
+        "branches": "Branches",
+        "privacy": "Privacy Policy",
+        "rights": "All rights reserved.",
+        "madeWith": "Made with"
+    },
+    "payment": {
+        "title": "Payment Methods",
+        "description": "We accept various payment methods for your convenience. Pay quickly and securely.",
+        "cash": "Cash"
+    },
+    "about": {
+        "genesis": "Our Genesis",
+        "title": "Defining",
+        "titleSuffix": "Tomorrow",
+        "subtitle": "A collective of visionaries reimagining the art of exploration.",
+        "since": "Since 2024",
+        "mainTitle": "Beyond the",
+        "mainTitleHighlight": "Ordinary",
+        "mainTitleSuffix": ", Into the Soul of Travel.",
+        "description": "Founded with a singular vision: to liberate the generic vacation into a deeply personal narrative. We don't just book trips; we orchestrate life-changing encounters with the planet's most enigmatic corners.",
+        "stats": {
+            "expeditions": "Curated Expeditions",
+            "ports": "Global Ports",
+            "renewal": "Renewal Rate"
+        },
+        "philosophy": "Our Philosophy",
+        "quote": "\"Travel is the only thing you buy that makes you richer.\""
+    },
+    "contact": {
+        "header": {
+            "label": "Direct Channel",
+            "title": "Ignite the",
+            "titleHighlight": "Spark",
+            "subtitle": "Your journey begins with a single inquiry. We are here to listen."
+        },
+        "info": {
+            "connect": "Connect",
+            "title": "Reach the Inner Circle",
+            "hq": {
+                "title": "HQ Base",
+                "val": "Tashkent, Mustakillik Street, 15"
+            },
+            "phone": {
+                "title": "Voice Comm",
+                "val": "+998 78 555 77 88"
+            },
+            "email": {
+                "title": "Digital Mail",
+                "val": "travel.uz@gmail.com"
+            }
+        },
+        "form": {
+            "nameLabel": "Appellation",
+            "namePlaceholder": "Your Name",
+            "emailLabel": "Digital Address",
+            "emailPlaceholder": "Email",
+            "messageLabel": "Collaborative Inquiry",
+            "messagePlaceholder": "Describe your vision...",
+            "submit": "Dispatch Message",
+            "sending": "Transmitting..."
+        }
+    },
+    "toursPage": {
+        "label": "Explore The World",
+        "title": "Our",
+        "titleHighlight": "Exclusive",
+        "titleSuffix": "Tours",
+        "description": "A curated selection of the world's most breathtaking destinations, tailored for those who seek more than just a vacation.",
+        "emptyTitle": "No Journeys Found",
+        "emptyDesc": "We're currently scouting new breathtaking locations. Check back soon for new adventures.",
+        "from": "From",
+        "duration": "Duration"
+    },
+    "booking": {
+        "selectedTour": "Selected Tour",
+        "namePlaceholder": "Your Name",
+        "phonePlaceholder": "Phone Number",
+        "peoplePlaceholder": "Number of People",
+        "messagePlaceholder": "Your Message (Optional)",
+        "submit": "Confirm Booking",
+        "orCall": "Or call us",
+        "success": "Booking request sent successfully!",
+        "error": "Failed to send booking request. Please try again.",
+        "fillRequired": "Please fill in all required fields.",
+        "promoCodePlaceholder": "Promo Code (Optional)",
+        "yourPromoCode": "Your Promo Code",
+        "promoCodeCopy": "Share this code and get rewards!",
+        "successWithCode": "Booking successful! Your promo code is:"
+    },
+    "packageDetails": {
+        "experience": "The Experience",
+        "aboutJourney": "About this Journey",
+        "includedFeatures": "Included Features",
+        "expertTip": "Expert Tip",
+        "guideQuote": "Don't forget your camera! The golden hour at this location is unlike anywhere else in the world.",
+        "seniorGuide": "Senior Guide",
+        "investment": "Package Investment",
+        "perPerson": "Per person \u2022 All Inclusive",
+        "bookNow": "Book Now",
+        "enquire": "Enquire Privately",
+        "securePayment": "Secure Payment & Full Insurance Included",
+        "freeCancellation": "Free Cancellation up to 7 days before",
+        "certified": "Certified by World Travel Org",
+        "nights": "nights",
+        "rated": "Rated",
+        "feature1": "5 Star Accommodation",
+        "feature2": "Daily Breakfast & Dinner",
+        "feature3": "Professional Guide",
+        "feature4": "Transportation Included",
+        "feature5": "Entrance Fees to all sites",
+        "feature6": "24/7 Support"
+    },
+    "search": {
+        "resultsTitle": "Search Results",
+        "noResults": "Nothing was found for your request.",
+        "recommendations": "Recommended tours for you",
+        "close": "Close"
+    }
+}
