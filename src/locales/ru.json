@@ -45,6 +45,7 @@
     "title": "Популярные направления",
     "price": "Цена",
     "details": "Подробнее",
+    "order": "Заказать",
     "seeAll": "Смотреть все направления",
     "days": "дней"
   },
@@ -103,14 +104,14 @@
       },
       "email": {
         "title": "Цифровая почта",
-        "val": "travel.uz@gmail.com"
+        "val": "travel.uz{'@'}gmail.com"
       }
     },
     "form": {
       "nameLabel": "Ваше имя",
       "namePlaceholder": "Введите имя",
       "emailLabel": "Электронная почта",
-      "emailPlaceholder": "example@mail.com",
+      "emailPlaceholder": "example{'@'}mail.com",
       "messageLabel": "Сообщение",
       "messagePlaceholder": "Опишите ваше видение...",
       "submit": "Отправить сообщение",

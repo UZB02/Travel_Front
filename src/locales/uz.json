@@ -104,14 +104,14 @@
             },
             "email": {
                 "title": "Raqamli pochta",
-                "val": "travel.uz@gmail.com"
+                "val": "travel.uz{'@'}gmail.com"
             }
         },
         "form": {
             "nameLabel": "Ismingiz",
             "namePlaceholder": "Ismingizni kiriting",
             "emailLabel": "Elektron pochta",
-            "emailPlaceholder": "example@mail.com",
+            "emailPlaceholder": "example{'@'}mail.com",
             "messageLabel": "Xabar",
             "messagePlaceholder": "O'z qarashlaringizni tasvirlab bering...",
             "submit": "Xabar yuborish",

@@ -45,6 +45,7 @@
         "title": "Popular Destinations",
         "price": "Price",
         "details": "Details",
+        "order": "Book Now",
         "seeAll": "See All Destinations",
         "days": "days"
     },
@@ -103,7 +104,7 @@
             },
             "email": {
                 "title": "Digital Mail",
-                "val": "travel.uz@gmail.com"
+                "val": "travel.uz{'@'}gmail.com"
             }
         },
         "form": {
