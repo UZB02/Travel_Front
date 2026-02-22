@@ -3,26 +3,44 @@ import Navbar from '../components/Navbar.vue'
 import Footer from '../components/Footer.vue'
 import { reactive, ref } from 'vue'
 import { useI18n } from 'vue-i18n'
+import axios from 'axios'
 
 const { t } = useI18n()
 
 const form = reactive({
     name: '',
-    email: '',
+    contact: '',
     message: ''
 })
 
 const isSending = ref(false)
 
-const handleContact = () => {
+const handleContact = async () => {
+    if (!form.name || !form.contact || !form.message) {
+        alert(t('contact.form.fillAll'))
+        return
+    }
+
     isSending.value = true
-    setTimeout(() => {
-        alert(`${t('contact.form.sending')} ${form.name}!`)
+    try {
+        const response = await axios.post('http://localhost:5000/api/messages', {
+            name: form.name,
+            contact: form.contact,
+            message: form.message
+        })
+
+        if (response.data.success) {
+            alert(`${t('contact.form.success')} ${form.name}!`)
+            form.name = ''
+            form.contact = ''
+            form.message = ''
+        }
+    } catch (error) {
+        console.error(error)
+        alert(t('contact.form.error'))
+    } finally {
         isSending.value = false
-        form.name = ''
-        form.email = ''
-        form.message = ''
-    }, 1500)
+    }
 }
 </script>
 
@@ -98,8 +116,8 @@ const handleContact = () => {
                               <input v-model="form.name" type="text" required class="w-full px-8 py-5 rounded-2xl bg-gray-50 border-none focus:ring-4 focus:ring-blue-500/10 focus:bg-white transition-all font-bold text-[#0B1120]" :placeholder="t('contact.form.namePlaceholder')">
                           </div>
                           <div class="space-y-2">
-                              <label class="text-[10px] font-black text-gray-400 uppercase tracking-[0.2em] ml-2">{{ t('contact.form.emailLabel') }}</label>
-                              <input v-model="form.email" type="email" required class="w-full px-8 py-5 rounded-2xl bg-gray-50 border-none focus:ring-4 focus:ring-blue-500/10 focus:bg-white transition-all font-bold text-[#0B1120]" :placeholder="t('contact.form.emailPlaceholder')">
+                              <label class="text-[10px] font-black text-gray-400 uppercase tracking-[0.2em] ml-2">{{ t('contact.form.contactLabel') }}</label>
+                              <input v-model="form.contact" type="text" required class="w-full px-8 py-5 rounded-2xl bg-gray-50 border-none focus:ring-4 focus:ring-blue-500/10 focus:bg-white transition-all font-bold text-[#0B1120]" :placeholder="t('contact.form.contactPlaceholder')">
                           </div>
                       </div>
                       <div class="space-y-2">

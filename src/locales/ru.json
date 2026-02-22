@@ -1,4 +1,4 @@
-﻿{
+{
   "home": {
     "hotToursTitle": "Горящие туры"
   },
@@ -110,12 +110,15 @@
     "form": {
       "nameLabel": "Ваше имя",
       "namePlaceholder": "Введите имя",
-      "emailLabel": "Электронная почта",
-      "emailPlaceholder": "example{'@'}mail.com",
+      "contactLabel": "Email или телефон",
+      "contactPlaceholder": "Введите email или номер телефона",
       "messageLabel": "Сообщение",
       "messagePlaceholder": "Опишите ваше видение...",
       "submit": "Отправить сообщение",
-      "sending": "Отправка..."
+      "sending": "Отправка...",
+      "success": "Сообщение успешно отправлено",
+      "error": "Ошибка при отправке сообщения",
+      "fillAll": "Пожалуйста, заполните все поля"
     }
   },
   "toursPage": {

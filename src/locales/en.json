@@ -1,4 +1,4 @@
-﻿{
+{
     "home": {
         "hotToursTitle": "Hot Tours"
     },
@@ -110,12 +110,15 @@
         "form": {
             "nameLabel": "Appellation",
             "namePlaceholder": "Your Name",
-            "emailLabel": "Digital Address",
-            "emailPlaceholder": "Email",
+            "contactLabel": "Email or Phone",
+            "contactPlaceholder": "Enter your email or phone number",
             "messageLabel": "Collaborative Inquiry",
             "messagePlaceholder": "Describe your vision...",
             "submit": "Dispatch Message",
-            "sending": "Transmitting..."
+            "sending": "Transmitting...",
+            "success": "Message sent successfully",
+            "error": "Error sending message",
+            "fillAll": "Please fill all fields"
         }
     },
     "toursPage": {

@@ -110,12 +110,15 @@
         "form": {
             "nameLabel": "Ismingiz",
             "namePlaceholder": "Ismingizni kiriting",
-            "emailLabel": "Elektron pochta",
-            "emailPlaceholder": "example{'@'}mail.com",
+            "contactLabel": "Email yoki telefon",
+            "contactPlaceholder": "Email yoki telefon raqamingizni kiriting",
             "messageLabel": "Xabar",
             "messagePlaceholder": "O'z qarashlaringizni tasvirlab bering...",
             "submit": "Xabar yuborish",
-            "sending": "Yuborilmoqda..."
+            "sending": "Yuborilmoqda...",
+            "success": "Xabar muvaffaqiyatli yuborildi",
+            "error": "Xabar yuborishda xatolik yuz berdi",
+            "fillAll": "Iltimos, barcha maydonlarni to'ldiring"
         }
     },
     "toursPage": {

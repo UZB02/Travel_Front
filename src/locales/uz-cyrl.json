@@ -1,4 +1,4 @@
-﻿{
+{
     "home": {
         "hotToursTitle": "Қайноқ турлар"
     },
@@ -110,12 +110,15 @@
         "form": {
             "nameLabel": "Исмингиз",
             "namePlaceholder": "Исмингизни киритинг",
-            "emailLabel": "Электрон почта",
-            "emailPlaceholder": "example{'@'}mail.com",
+            "contactLabel": "Email ёки телефон",
+            "contactPlaceholder": "Email ёки телефон рақамингизни киритинг",
             "messageLabel": "Хабар",
             "messagePlaceholder": "Ўз қарашларингизни тасвирлаб беринг...",
             "submit": "Хабар юбориш",
-            "sending": "Юборилмоқда..."
+            "sending": "Юборилмоқда...",
+            "success": "Хабар муваффақиятли юборилди",
+            "error": "Хабар юборишда хатолик юз берди",
+            "fillAll": "Илтимос, барча майдонларни тўлдиринг"
         }
     },
     "toursPage": {
