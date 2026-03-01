@@ -146,7 +146,8 @@
         "promoCodePlaceholder": "Promo kod (ixtiyoriy)",
         "yourPromoCode": "Sizning promo kodingiz",
         "promoCodeCopy": "Ushbu kodni ulashing va mukofotlarga ega bo'ling!",
-        "successWithCode": "Buyurtma muvaffaqiyatli amalga oshirildi! Sizning promo kodingiz:"
+        "successWithCode": "Buyurtma muvaffaqiyatli amalga oshirildi! Sizning promo kodingiz:",
+        "telegramBotLink": "Buyurtmangiz holatini Telegram botimiz orqali kuzatib boring:"
     },
     "packageDetails": {
         "experience": "Tajriba",

@@ -1,6 +1,6 @@
 <script setup>
 import { ref, onMounted } from 'vue'
-import { useRoute } from 'vue-router'
+import { useRoute, useRouter } from 'vue-router'
 import { useI18n } from 'vue-i18n'
 import axios from 'axios'
 import Navbar from '../components/Navbar.vue'
@@ -12,6 +12,7 @@ import { useCurrency } from '../composables/useCurrency'
 const { t } = useI18n()
 
 const route = useRoute()
+const router = useRouter()
 const packageDetails = ref(null)
 const isLoading = ref(true)
 const activeImage = ref('')
@@ -198,7 +199,7 @@ onMounted(() => {
                                 <button @click="handleBook(packageDetails)" class="w-full bg-[#003B95] text-white py-6 rounded-2xl font-black text-lg shadow-xl shadow-blue-900/30 hover:bg-[#FFA500] hover:shadow-orange-900/30 transition-all duration-500 transform hover:-translate-y-1 active:scale-95 flex items-center justify-center gap-3">
                                     {{ t('packageDetails.bookNow') }} <span>→</span>
                                 </button>
-                                <button class="w-full bg-gray-50 text-gray-400 py-4 rounded-2xl font-black text-sm uppercase tracking-widest hover:text-[#0B1120] transition">
+                                <button @click="router.push('/contact')" class="w-full bg-gray-50 text-gray-400 py-4 rounded-2xl font-black text-sm uppercase tracking-widest hover:text-[#0B1120] transition">
                                     {{ t('packageDetails.enquire') }}
                                 </button>
                             </div>

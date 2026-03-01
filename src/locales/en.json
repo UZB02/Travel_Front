@@ -146,7 +146,8 @@
         "promoCodePlaceholder": "Promo Code (Optional)",
         "yourPromoCode": "Your Promo Code",
         "promoCodeCopy": "Share this code and get rewards!",
-        "successWithCode": "Booking successful! Your promo code is:"
+        "successWithCode": "Booking successful! Your promo code is:",
+        "telegramBotLink": "Track your booking status via our Telegram bot:"
     },
     "packageDetails": {
         "experience": "The Experience",
