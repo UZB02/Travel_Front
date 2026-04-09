@@ -168,7 +168,7 @@ const copyCode = () => {
             </div>
 
             <div class="flex flex-col gap-3">
-                <a href="https://t.me/travel_startupbot" target="_blank"
+                <a href="https://t.me/for_travellbot" target="_blank"
                     class="flex items-center justify-center gap-3 bg-blue-500 hover:bg-blue-600 text-white font-black py-3.5 rounded-2xl transition-all shadow-lg shadow-blue-500/20 active:scale-95 text-xs uppercase tracking-wider">
                     <span class="text-xl">✈</span> Telegram Bot
                 </a>

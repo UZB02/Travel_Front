@@ -37,7 +37,7 @@
              <a href="#" class="w-10 h-10 rounded-full bg-white/10 flex items-center justify-center hover:bg-pink-600 hover:text-white transition duration-300">
                 <i class="pi pi-instagram"></i>
              </a>
-             <a href="#" class="w-10 h-10 rounded-full bg-white/10 flex items-center justify-center hover:bg-blue-400 hover:text-white transition duration-300">
+             <a href="https://t.me/for_travellbot" target="_blank" class="w-10 h-10 rounded-full bg-white/10 flex items-center justify-center hover:bg-blue-400 hover:text-white transition duration-300">
                 <i class="pi pi-telegram"></i>
              </a>
           </div>
