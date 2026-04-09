@@ -3,7 +3,7 @@ import Navbar from '../components/Navbar.vue'
 import Footer from '../components/Footer.vue'
 import { reactive, ref } from 'vue'
 import { useI18n } from 'vue-i18n'
-import axios from 'axios'
+import api from '../api'
 
 const { t } = useI18n()
 
@@ -23,7 +23,7 @@ const handleContact = async () => {
 
     isSending.value = true
     try {
-        const response = await axios.post('http://localhost:5000/api/messages', {
+        const response = await api.post('/messages', {
             name: form.name,
             contact: form.contact,
             message: form.message

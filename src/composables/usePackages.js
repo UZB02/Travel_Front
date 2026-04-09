@@ -1,5 +1,5 @@
 import { ref } from 'vue'
-import axios from 'axios'
+import api from '../api'
 
 export function usePackages() {
     const featuredPackages = ref([])
@@ -14,7 +14,7 @@ export function usePackages() {
     const fetchPackages = async () => {
         isLoading.value = true
         try {
-            const { data } = await axios.get('http://localhost:5000/api/packages')
+            const { data } = await api.get('/packages')
             if (data.success) {
                 featuredPackages.value = data.data.map(pkg => ({
                     ...pkg,

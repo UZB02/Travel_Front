@@ -1,7 +1,7 @@
 <script setup>
 import { ref, reactive } from 'vue'
 import { useI18n } from 'vue-i18n'
-import axios from 'axios'
+import api from '../api'
 
 const { t } = useI18n()
 
@@ -32,7 +32,7 @@ const submitBooking = async () => {
 
     isLoading.value = true
     try {
-        const response = await axios.post('http://localhost:5000/api/bookings', {
+        const response = await api.post('/bookings', {
             packageId: props.packageData._id,
             fullName: form.fullName,
             phone: form.phone,

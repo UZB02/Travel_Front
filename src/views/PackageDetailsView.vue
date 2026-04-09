@@ -2,7 +2,7 @@
 import { ref, onMounted } from 'vue'
 import { useRoute, useRouter } from 'vue-router'
 import { useI18n } from 'vue-i18n'
-import axios from 'axios'
+import api from '../api'
 import Navbar from '../components/Navbar.vue'
 import Footer from '../components/Footer.vue'
 import BookingModal from '../components/BookingModal.vue'
@@ -35,7 +35,7 @@ const calculateDuration = (start, end) => {
 
 const fetchPackageDetails = async () => {
     try {
-        const { data } = await axios.get(`http://localhost:5000/api/packages/${route.params.id}`)
+        const { data } = await api.get(`/packages/${route.params.id}`)
         if (data.success) {
             packageDetails.value = data.data
             // Mock data if empty

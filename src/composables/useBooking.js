@@ -1,5 +1,5 @@
 import { ref, reactive } from 'vue'
-import axios from 'axios'
+import api from '../api'
 
 export function useBooking() {
     const isBookingModalOpen = ref(false)
@@ -46,7 +46,7 @@ export function useBooking() {
 
         try {
             isLoading.value = true
-            const response = await axios.post('http://localhost:5000/api/bookings', {
+            const response = await api.post('/bookings', {
                 packageId: selectedPackage.value._id,
                 fullName: bookingForm.fullName,
                 phone: bookingForm.phone,
